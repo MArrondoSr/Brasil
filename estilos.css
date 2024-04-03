@@ -1,10 +1,47 @@
 .alturafoto {
-height: 200px;
+height: 13em;
 
 }
 .numero {
     font-style: italic;
     font-family: Impact, sans-serif ;
-    font-size: 25px;
+    font-size: 2em;
     font-weight: 400;
+    color:orangered;
 }
+.numero:hover {
+    color:bisque;
+    
+}
+#TituloPrincipal {
+    font-size: 2.5em;
+    font-style: oblique;
+    font-family:'Lucida Grande';
+color:blanchedalmond;
+border: 5px solid yellow;
+border-radius: 50%;
+width: 75vw;
+margin: auto;
+padding: 0 2em 0 2em;
+
+}
+#TituloPrincipal:hover {
+    color: red;
+    background-color: yellow;
+    border: red;
+    
+}
+#cajafotos {
+    
+    width: 85em;
+    margin: auto;
+    border: 1em solid yellow;
+    border-radius: 5%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 1px;
+
+}
+
+
